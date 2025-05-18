@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git e Github</title>
-</head>
-<body>
-    <h1>Olá Git e Github no VsCode</h1>
-</body>
-    </html>
+<?php
+/**
+ * Plugin Name: My Plugin
+ * Plugin URI:
+ * Description: Wordpress Plugin
+ * Version:     1.0.0
+ * Author:      Antonio
+ * Author URI:
+ * Requires at least: 6.0
+ * Requires PHP: 8.0
+ *
+ * @package MyPlugin
+ */
+
+if ( ! class_exists( 'MyPlugin' ) ) :
+        /**
+         * Main MyPlugin Class
+         */
+       final class MyPlugin {
+
+                /**
+                 * MyPlugin version number
+                 *
+                 * @var string
+                 */
+                public $version = '1.0.0';
